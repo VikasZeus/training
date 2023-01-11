@@ -1,0 +1,51 @@
+body{
+    font-family: Roboto; 
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    width: 457px;
+    height: 138px;
+}
+.text{
+    margin-bottom: 24px;
+    
+}
+p{
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+small{
+    font-size: 15px;
+    color: #858991;
+}
+.left img{
+    width: 130px;
+    height: 130px;
+    margin-right: 14px;
+}
+.left{
+    width: 130px;
+    height: 130px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+  
+}
+.right{
+    margin-left: 14px;
+    height: 130px;
+}
+.comment{
+    margin-right: 24px;
+}
+.reshare{
+    margin-right: 24px;
+}
