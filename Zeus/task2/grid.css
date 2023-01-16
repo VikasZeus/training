@@ -25,7 +25,6 @@ h2 {
   background-image: linear-gradient(to bottom right, #38d2ca, #2aaba2);
   grid-row: 2 / -2;
   border: 3px solid #a099a9;
-
   display: flex;
   justify-content: center;
   align-items: center;
