@@ -29,6 +29,7 @@ body {
   background-color: #EEEEEE;
   font-family: Quicksand;
   font: normal normal medium 24px/28px Quicksand;
+  accent-color: #1f7a54;
 }
 body > main {
   display: flex;
@@ -85,6 +86,7 @@ body > main .radio_group {
 }
 body > main .radio_element {
   display: flex;
+  align-items: center;
   flex-direction: row;
   margin-right: 2rem;
 }
@@ -117,7 +119,14 @@ input[type=password] {
 }
 
 input[type=checkbox] {
-  background: #1F7A54;
+  height: 24px;
+  width: 18px;
+}
+
+input[type=radio] {
+  width: 24px;
+  height: 20px;
+  margin: 0 8px 0 0;
 }
 
 select {
@@ -164,6 +173,8 @@ footer .upper_footer {
 
 .Remember_ME {
   margin-top: 26px;
+  display: flex;
+  align-items: center;
   font-size: 16px;
   font-weight: normal normal medium;
   letter-spacing: 0px;
